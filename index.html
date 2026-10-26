@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodness Fashioned Home | Portfolio</title>
+    <!-- Tailwind CSS for modern, responsive styling -->
+    <script src="https://jsdelivr.net"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-stone-100">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-wide text-stone-900">GOODNESS <span class="text-amber-700 font-light">FASHIONED</span></h1>
+            <a href="https://wa.me" target="_blank" class="bg-emerald-600 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-emerald-700 transition">
+                <i class="fab fa-whatsapp"></i> Chat
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-stone-900 text-white py-20 px-4 text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://unsplash.com');">
+        <div class="max-w-3xl mx-auto space-y-6">
+            <span class="text-xs uppercase tracking-widest text-amber-400 font-semibold bg-amber-400/10 px-3 py-1 rounded-full">Interior & Fashion Curation</span>
+            <h2 class="text-4xl md:text-5xl font-serif font-bold leading-tight">Elegant Designs for the Modern Home</h2>
+            <p class="text-stone-200 text-base md:text-lg max-w-xl mx-auto font-light">Discover beautifully crafted pieces that bring comfort, style, and luxury into your daily living spaces.</p>
+            <div class="pt-4">
+                <a href="#collection" class="bg-amber-700 hover:bg-amber-800 text-white px-8 py-3 rounded-md font-medium tracking-wide text-sm uppercase transition shadow-lg inline-block">Explore Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="max-w-4xl mx-auto px-4 py-16 text-center space-y-4">
+        <h3 class="text-2xl font-serif font-bold text-stone-900">Our Story</h3>
+        <div class="w-12 h-0.5 bg-amber-700 mx-auto mb-4"></div>
+        <p class="text-stone-600 leading-relaxed max-w-2xl mx-auto">
+            At Goodness Fashioned Home, we believe your space should reflect your unique taste. We curate premium home fashion, decor accents, and styling pieces designed to elevate your interior aesthetics effortlessly.
+        </p>
+    </section>
+
+    <!-- Portfolio / Collection Showcase -->
+    <section id="collection" class="max-w-6xl mx-auto px-4 py-8 bg-white rounded-2xl shadow-sm border border-stone-100 mb-16">
+        <h3 class="text-2xl font-serif font-bold text-stone-900 text-center mb-8">Featured Gallery</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Item 1 -->
+            <div class="group overflow-hidden rounded-xl bg-stone-50 border border-stone-100 transition hover:shadow-md">
+                <img src="https://unsplash.com" alt="Living Room Accent" class="w-full h-64 object-cover">
+                <div class="p-4 space-y-2">
+                    <h4 class="font-medium text-stone-900 text-lg">Living Room Accent</h4>
+                    <p class="text-sm text-stone-500">Premium minimalist furniture and statement layout pieces.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="group overflow-hidden rounded-xl bg-stone-50 border border-stone-100 transition hover:shadow-md">
+                <img src="https://unsplash.com" alt="Luxury Bedding Setup" class="w-full h-64 object-cover">
+                <div class="p-4 space-y-2">
+                    <h4 class="font-medium text-stone-900 text-lg">Luxury Bedding Setup</h4>
+                    <p class="text-sm text-stone-500">Cozy, modern textiles designed for absolute bedroom comfort.</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="group overflow-hidden rounded-xl bg-stone-50 border border-stone-100 transition hover:shadow-md">
+                <img src="https://unsplash.com" alt="Modern Decor Accents" class="w-full h-64 object-cover">
+                <div class="p-4 space-y-2">
+                    <h4 class="font-medium text-stone-900 text-lg">Modern Decor Accents</h4>
+                    <p class="text-sm text-stone-500">Lighting, ceramics, and structural visual highlights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-12 px-4 border-t border-stone-800 text-center text-sm space-y-6">
+        <div class="space-y-2">
+            <h4 class="text-white font-serif font-bold tracking-wide">GOODNESS FASHIONED HOME</h4>
+            <p class="text-stone-500">Curated Living Spaces & Home Fashion Portfolio</p>
+        </div>
+        
+        <div class="flex justify-center gap-6 text-lg">
+            <a href="https://wa.me" target="_blank" class="hover:text-emerald-500 transition"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="hover:text-amber-500 transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-amber-500 transition"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <div class="pt-6 border-t border-stone-800 text-xs text-stone-600 max-w-md mx-auto">
+            <p>WhatsApp: +234 906 807 0845</p>
+            <p class="mt-2">&copy; 2026 Goodness Fashioned Home. Powered by Web Dev Global.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile WhatsApp Call to Action -->
+    <a href="https://wa.me" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:bg-emerald-700 transition duration-300 text-2xl" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
